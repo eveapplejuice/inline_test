@@ -18,6 +18,8 @@ $(document).ready(function ()
                     let json = JSON.parse(response);
                     if (json['success'] === 'Y') {
                         $('.row').after(json['html']);
+                    } else {
+                        $('.row').after(json['error_html']);
                     }
                 }
             });

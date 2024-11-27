@@ -64,3 +64,6 @@ html, body {
     box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2);
     background-color: #7AEE3C;
 }
+.error-warning {
+    margin: 10px 0;
+}

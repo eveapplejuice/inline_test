@@ -29,6 +29,8 @@ if (!empty($_POST['value'])) {
 
         $result['html'] = $html;
         $result['success'] = 'Y';
+    } else {
+        $result['error_html'] = '<div class="error-warning">База данных не заполнена</div>';
     }
 }
 echo json_encode($result);
